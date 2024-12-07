@@ -1,0 +1,159 @@
+/* Name:Sri Vidya  | Date: 12/07/2024 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+.construction-container {
+    max-width: 600px;
+    margin: 10%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section.privacy-section h2 {
+    text-align: left;
+
+}
+
+section.privacy-section p {
+    text-align: left;
+    margin: 0px;
+}
+
+section.privacy-section ul {
+    text-align: left;
+    padding-left: unset;
+}
+
+.nominate-dogs img {
+    max-width: 100%;
+    height: 30vh;
+}
+
+.nominate img {
+    max-width: 100%;
+    height: 60vh;
+}
+
+.form-group {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #6e7d6a;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4b615a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    background-color: #6e7d6a;
+}
+
+#page-wrapper {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1,
+h2 {
+    color: #4b615a;
+}
+
+ul {
+    line-height: 1.8;
+    font-size: 1rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ref-link {
+    margin: 2%;
+}
+
+.community-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Styling for unordered list */
+.community-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.community-list li {
+    padding: 10px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+/* Add icons for each item */
+.community-list li::before {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #ff6600;
+}
+
+/* Styling for paragraph and title */
+.community-content h2 {
+    text-align: left;
+    font-size: 2rem;
+    color: #444;
+}
+
+.community-content p {
+    text-align: left;
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nominate-dogs img {
+
+        height: 20vh;
+    }
+
+    .nominate img {
+
+        height: 35vh;
+    }
+}
